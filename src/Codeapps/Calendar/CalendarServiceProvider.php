@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class CodeappsServiceProvider extends ServiceProvider {
+class CalendarServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
