@@ -1,6 +1,7 @@
 {
     "name": "codeapps/calendar",
     "minimum-stability": "stable",
+    "version": "1.0",
     "description": "This is rewriten Gantt Class to Personal Use. Show Multiple Events per Resource with Laravel 5 Compatibility",
     "authors": [
         {
