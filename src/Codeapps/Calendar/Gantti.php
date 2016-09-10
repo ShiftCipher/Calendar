@@ -1,6 +1,6 @@
 <?php
 
-namespace Codeapps\Codeapps;
+namespace Codeapps\Calendar;
 
 class Gantti {
 

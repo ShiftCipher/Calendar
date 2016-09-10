@@ -1,4 +1,4 @@
-<?php namespace Codeapps\Codeapps;
+<?php namespace Codeapps\Calendar;
 
 use Illuminate\Support\ServiceProvider;
 
