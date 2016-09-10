@@ -30,7 +30,7 @@ class CodeappsServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['rescalendar'] = $this->app->share(function($app)
+		$this->app['calendar'] = $this->app->share(function($app)
 		{
 			return new Gantti;
 		});
@@ -43,7 +43,7 @@ class CodeappsServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('rescalendar');
+		return array('calendar');
 	}
 
 	}
