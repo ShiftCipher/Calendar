@@ -14,9 +14,12 @@
         "illuminate/support": "5.2.*"
     },
     "autoload": {
-        "psr-4": {
-            "Codeapps\\Calendar\\": "src/"
-        }
+      "classmap": [
+        "src/Codeapps/Calendar"
+      ],
+      "psr-4": {
+          "Codeapps\\Calendar\\": "src/"
+      }
     },
     "minimum-stability": "stable"
 }
