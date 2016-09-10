@@ -2,6 +2,7 @@
     "name": "codeapps/calendar",
     "minimum-stability": "stable",
     "version": "1.0",
+    "license": "MIT",
     "description": "This is rewriten Gantt Class to Personal Use. Show Multiple Events per Resource with Laravel 5 Compatibility",
     "authors": [
         {
@@ -17,7 +18,7 @@
         "classmap": [
             "src/migrations"
         ],
-        "psr-4": {
+        "psr-0": {
             "Codeapps\\Calendar\\": "src/"
         }
     }
