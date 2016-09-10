@@ -1,0 +1,23 @@
+{
+    "name": "codeapps/calendar",
+    "description": "This is rewriten Gantt Class to Personal Use. Show Multiple Events per Resource with Laravel 5 Compatibility",
+    "authors": [
+        {
+            "name": "Codeapps",
+            "email": "codeapps@aol.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Codeapps\\Calendar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
