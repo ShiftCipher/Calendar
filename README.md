@@ -36,7 +36,7 @@ Composer will download the package. After the package is downloaded, open config
 Finally you need to publish a configuration file by running the following Artisan command.
 
 ```
-php artisan vendor:publish --tag=public --force
+php artisan vendor:publish
 ```
 
 Include css in your view
