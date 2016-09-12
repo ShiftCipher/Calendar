@@ -10,7 +10,7 @@ Require codeapps/calendar in composer.json and run composer update.
     "require": {
         "laravel/framework": "5.2.*",
         ...
-        "codeapps/calendar": "*"
+        "codeapps/calendar": "dev-master"
     }
     ...
 }
