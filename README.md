@@ -49,6 +49,8 @@ Include css in your view
 Create a Controller 
 
 ```
+use Codeapps\Calendar\Calendar as Calendar;
+
 public function create()
   {
     $data[] = [
