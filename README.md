@@ -45,3 +45,34 @@ Include css in your view
 <link href="/public/vendor/codeapps/calendar.css" rel="stylesheet" type="text/css">
 
 ```
+
+Create a Controller 
+
+```
+public function create()
+  {
+    $data[] = [
+            'label' => 'Label',
+            'class' => 'blue',
+            'events' => [
+
+            [
+            'label' => 'Codeapps',
+            'start' => '2015-06-19 08:30:16',
+            'end'   => '2015-06-23 10:30:16',
+            'class' => '',
+            'icon' => 'fa-arrow-down'
+            ]
+        ]
+    ];
+
+    return view('orders.create', compact('data'));
+  }
+```
+
+Create a View and Add 
+
+```
+{!! Calendar::render($data,['title'=>'Codeapps'])!!}
+```
+
