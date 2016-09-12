@@ -2,7 +2,7 @@
     "name": "codeapps/calendar",
     "version": "1.0",
     "license": "MIT",
-    "description": "This is rewriten Gantt Class to Personal Use. Show Multiple Events per Resource with Laravel 5 Compatibility",
+    "description": "Best Calendar Library to Render Fancy Gantt Events with Laravel 5 Compatibility",
     "authors": [
         {
             "name": "Codeapps",
