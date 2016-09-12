@@ -22,14 +22,14 @@ Composer will download the package. After the package is downloaded, open config
 
 'providers' => array(
     ...
-    'Codeapps\Calendar\CalendarServiceProvider',
+    'Codeapps\Calendar\CalendarServiceProvider::class',
 ),
 
 
 
 'aliases' => array(
     ...
-    'Calendar' => 'Codeapps\Calendar\Facades\Calendar',
+    'Calendar' => 'Codeapps\Calendar\Facades\Calendar::class',
 ),
 
 ```
