@@ -42,7 +42,7 @@ php artisan vendor:publish
 Include css in your view
 
 ```
-<link href="/public/vendor/codeapps/calendar.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/calendar.css') }}">
 
 ```
 
